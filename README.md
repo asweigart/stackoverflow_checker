@@ -10,5 +10,6 @@ Just download the zip file and extract `stackoverflow_checker.py`. You'll also n
 
 # Usage
 
-Edit the `query` variable in `stackoverflow_checker.py` and set it to the search term you want to use, then run `python3 stackoverflow_checker.py` (on Linux/Mac) or `python stackoverflow_checker.py` (on Windows).
+Edit the `queries` variable in `stackoverflow_checker.py` and set it to the search terms you want to use, then run `python3 stackoverflow_checker.py` (on Linux/Mac) or `python stackoverflow_checker.py` (on Windows).
 
+Note that each string in `queries` is what you would type into the search bar. If you want to search for "python concatenation operator", you would set it to `['python concatenation operator']`, not `['python', 'concatenation', 'operator']`. The separate strings in this list are as if you wanted to run the script multiple times with different search queries.
